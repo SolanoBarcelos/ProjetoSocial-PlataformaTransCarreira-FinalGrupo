@@ -1,0 +1,514 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@500;600;800&family=Josefin+Slab:ital,wght@0,200;0,300;0,400;0,500;1,300;1,400&family=Mulish:ital,wght@0,300;0,600;1,200;1,300;1,400;1,500&family=Open+Sans&display=swap");
+* {
+  margin: 0, auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+div {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+
+/*formatação do Menu */
+
+.logo {
+  position: relative;
+  width: 40%;
+  display: inline-block;
+  padding: 10px;
+  margin-left: 60px;
+}
+
+.logo img {
+  width: 150px;
+}
+
+#Menu {
+  background-color: rgba(101, 53, 155, 1);
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px;
+  border: 1px solid rgba(101, 53, 155, 1) ;
+}
+
+
+.navbar-nav {
+  color: #fff;
+  margin-left: 250px;
+  color: none;
+}
+
+button.navbar-toggler {
+  background-color: rgba(250, 212, 220, 1);
+  box-shadow: 5px 3px 3px lightslategray;
+  color: black;
+  height: 30px;
+  width: 40px;
+  padding: none;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+}
+
+.menuToggler {
+  height: 20px;
+  width: 30px;
+  padding: 1px;
+  padding: none;
+
+}
+
+.um{
+  height: 2px;
+  width: 50%;
+  background-color: black;
+  align-items: center;
+  margin: 2px;
+  align-content:flex-start;
+  padding: none;
+}
+
+.dois {
+  height: 2px;
+  width: 50%;
+  background-color: black;
+  align-items: center;
+  margin: 2px;
+  align-content:flex-start;
+  padding: none;
+}
+
+.tres {
+  height: 2px;
+  width: 50%;
+  background-color: black;
+  align-items: center;
+  margin: 2px;
+  align-content:flex-start;
+  padding: none;
+}
+
+.nav-item {
+  margin: 15px;
+  color: #fff;
+  color: none;
+}
+
+#Menu link {
+  font-size: 15px;
+  color: #fff;
+}
+
+#link {
+  color: #fff;
+}
+
+#link:hover {
+  color: rgba(250, 212, 220, 1);
+  text-decoration: none;
+}
+
+
+
+/*formatação do Footer */
+
+footer {
+  background-color: rgba(101, 53, 155, 1);
+  bottom: 0;
+  position: relative;
+  width: 100%;
+  margin-top: 126px;
+}
+
+footer p {
+  background-color: rgba(101, 53, 155, 1);
+  color: white;
+  margin: none;
+  padding: none;
+  text-align: center;
+}
+
+p#pFot {
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 10px;
+  padding-left: 65px;
+  margin: 0%;
+}
+
+footer img {
+  width: 80px;
+  padding: none;
+  margin-left: 50%;
+  margin-right: 50%;
+  margin-bottom: 0px;
+  margin-top: 12px;
+  padding-right: 20px;
+}
+
+p#pFot a {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: nome;
+  color: #fff;
+  margin: nome;
+}
+
+p#pFot a:hover {
+  color: rgba(250, 212, 220, 1);
+  text-decoration: none;
+}
+
+/*formatação pagina Index */
+
+.jumbotron {
+  background-image: url("/public/Imagens/BandTrans.jpg");
+  height: 400px;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.jumbotron h1 {
+  margin-top: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.jumbotron p {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 20px;
+  color: rgba(0, 0, 0, 0.6);
+
+}
+
+img#imgDados {
+  margin-left: 360px;
+  width: 800px;
+}
+
+#espacoImgEP1 {
+  display: inline-flex;
+  justify-content: space-around;
+  box-shadow: 5px 5px 3px lightslategray;
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 15px;
+  max-width: 900px;
+  margin: 30px;
+  
+  border: 5px solid rgba(250, 212, 220, 1);
+}
+
+#pEsqueda {
+  max-width: 450px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  margin-left: 100px;
+}
+
+#espacoImgEP2 {
+  display: inline-flex;
+  justify-content: space-around;
+  box-shadow: 5px 5px 3px lightslategray;
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 15px;
+  max-width: 900px;
+  margin: 30px;
+  margin-left: 200px;
+  flex-wrap: wrap;
+  border: 5px solid rgba(173, 231, 253, 1);
+  
+}
+
+#pDireita {
+  max-width: 450px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  margin-right: 100px;
+
+}
+
+main section.dados {
+  overflow: auto;
+  display: flex;
+  margin: 40px;
+}
+
+main article {
+  margin: 40px 40px 40px 40px;
+  width: 400px;
+  height: 500x;
+  text-align: center;
+}
+
+main p.paragrafoDados {
+  font-size: 12pt;
+  padding: 5px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 400px;
+  height: 500x;
+  border-radius: 1.2rem;
+  border: 1px solid rgba(73, 123, 165, 0.4);
+  background-color: none;
+}
+
+/*formatação pagina Vagas */
+
+.vagas_titulo {
+  text-align: center;
+  text-decoration: solid;
+  text-transform: uppercase;
+  color: #788bdd;
+  font-size: 60px;
+  font-weight: bolder;
+}
+
+#vagaCidade {
+  background-color: rgba(101, 53, 155, 1);
+  color: #fff;
+  text-align: center;
+}
+
+a#btnCandidatar {
+  border-radius: 30px;
+  background-color: rgba(101, 53, 155, 1);
+  color: #fff;
+  bottom: 60px;
+  padding: 10px;
+  margin-bottom: 60px;
+  margin-left: 130px;
+}
+
+a#btnCandidatar:hover {
+  color: rgba(250, 212, 220, 1);
+  text-decoration: none;
+}
+
+/* Fomatação da Pagina Cursos */
+
+#btnsCadLog {
+  display: flex;
+  justify-content: center;
+}
+
+#formBotaoCurso {
+  border-radius: 30px;
+  background-color: rgba(101, 53, 155, 1);
+  border: none;
+  color: white;
+  padding: 10px;
+  margin: 20px;
+  display: inline;
+  flex-direction: row;
+  cursor: pointer;
+  width: 150px;
+}
+
+#formBotaoCurso:hover {
+  color: rgba(250, 212, 220, 1);
+  text-decoration: none;
+}
+
+.card-body {
+  background-color: white;
+}
+
+.card-text {
+  text-align: justify;
+}
+
+#btnCursos {
+  position: absolute;
+  border-radius: 30px;
+  background-color: rgba(101, 53, 155, 1);
+  color: #fff;
+  bottom: 60px;
+  padding: 10px;
+}
+
+#btnCursos:hover {
+  color: rgba(250, 212, 220, 1);
+  text-decoration: none;
+}
+
+#tituloCursos {
+  background-color: rgba(101, 53, 155, 1);
+  border-radius: 30px;
+  color: white;
+  padding: 10px;
+}
+
+/* Fomatação da Pagina Contato */
+
+form {
+  margin-top: 20px;
+}
+
+#formBotao {
+  border-radius: 30px;
+  background-color: rgba(101, 53, 155, 1);
+  border: none;
+  color: white;
+  padding: 10px;
+}
+
+#formBotao:hover {
+  color: rgba(250, 212, 220, 1);
+  text-decoration: none;
+}
+
+
+
+
+/* Fomatação da Pagina Empresas */
+
+.col-sm-4 {
+  padding-top: 0px;
+  height: 350px;
+
+}
+
+.card-info-texto {
+  height: 400px;
+}
+
+.card-info-texto p {
+  text-align: justify;
+  margin-top: 0;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  margin-bottom: 70px;
+}
+
+.card-img{
+  height: 200px;
+  align-items: center;
+}
+
+a.vejaMais {
+  border-radius: 30px;
+  background-color: rgba(101, 53, 155, 1);
+  color: #fff;
+  padding: 10px;;
+  margin-top: 0px;
+  height: 10px;
+  margin-bottom: 30px;
+}
+
+a.vejaMais:hover {
+  color: rgba(250, 212, 220, 1);
+  text-decoration: none;
+}
+
+/* Fomatação da Pagina Quem Somos */
+
+#quemSomos {
+  text-align: center;
+  padding: 20px;
+}
+
+.membros {
+  display: flex;
+  border: none;
+  justify-content: space-around;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+img.card-img {
+  margin-top: 38px;
+  border-radius: 50%;
+}
+
+#cardQuemSomos {
+  background-color: #fff;
+  padding: 10px;
+  box-shadow: 5px 5px 3px lightslategray;
+  border: 5px solid rgba(101, 53, 155, 1);
+  height: 400px;
+}
+
+#nomeQuemSomos {
+  color: rgba(101, 53, 155, 1);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#divQuemSomos {
+  background-color: #fff;
+}
+
+a.redesSociais {
+  border-radius: 30px;
+  background-color: rgba(101, 53, 155, 1);
+  color: #fff;
+  padding: 15px;
+  width: 30px;
+  margin: 17px;
+  align-items: center;
+}
+
+a.redesSociais:hover {
+  color: rgba(250, 212, 220, 1);
+  text-decoration: none;
+}
+
+/* MOBILE */
+
+
+@media screen and (max-width: 500px){ 
+  #espacoImgEP2, #espacoImgEP1 {
+    margin: 0;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    height: 650px;
+    align-items: center;
+    align-content: center;
+      }
+    
+   #pEquerda, #pDireita {
+     align-items: center;
+     
+   } 
+   
+   #imgIndexEsq {
+     margin: 20px;
+   }
+
+   .form-group {
+     width: 300px;
+   }
+
+   .col-sm {
+     margin: 20px;
+     align-items: center;
+     margin-left: 23px;
+   }
+
+   #CardsVagasCursos {
+     margin-bottom: 5px;
+     margin-top: 5px;
+   }
+   #cardQuemSomos {
+     margin: 10px;
+   }
+
+   .membros {
+     margin: 5px;
+   }
+   #navbarNav {
+     align-items: flex-start;
+   }
+    } 
